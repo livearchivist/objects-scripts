@@ -39,3 +39,11 @@ This script installs A LOT of stuff:
 ```
 curl --remote-name --location https://raw.githubusercontent.com/jncox/stageworkshop/master/bootstrap.sh && sh ${_##*/}
 ```
+
+### Generate Splunk Stuff
+
+Credit: James Brown, Nutanix
+
+Deploy `TA-Nutanix.zip` to a Splunk server. Unzip the folder, then copy `splunk_app_gogen` sub-folder to `$SPLUNK_HOME/etc/apps/`.
+
+In Splunk, you can then go to Apps and enable GoGen. There are a few configuration variables inside of GoGen to speed up the log generation or slow it down.

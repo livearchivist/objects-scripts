@@ -16,7 +16,7 @@ pip install boto3
 To run:
 
 ```
-python qupload.py --endpoint http://10.38.2.53 --access_key 5RPoaecsV2Yq7Jf_1A0lWQFmwH6x0wcj --secret_key B83e-vUxwJPfjkMIup_oxww5DR40f_wb --bucket test-bucket6 --objsize 10240 --workload write,copy --parallel_threads 100
+python qupload.py --endpoint http://10.38.2.53 --access_key 5RPoaecsV2Yq7Jf_1A0lWQFmwH6x0wcj --secret_key B83e-vUxwJPfjkMIup_oxww5DR40f_wb --bucket test-bucket6 --objsize 9000 --workload write,copy --parallel_threads 100
 ```
 
 ### REST calls
